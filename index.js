@@ -1,3 +1,9 @@
+jQuery.ajaxPrefilter(function(options) {
+    if (options.crossDomain && jQuery.support.cors) {
+        options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
+    }
+});
+
 //Configure the API endpoints that you want to check here...
 //Please make sure that those endpoints allow crossdomain calls, or be sure
 //to host this site in the same domain as your API (and set `document.domain` correspondingly)
@@ -12,7 +18,7 @@ var apis = {
     },
     ancillaries: {
         title: 'ancillaries',
-        url: 'https://cors-anywhere.herokuapp.com/http://ancillaries.flyersconcierge.com/api/status/'
+        url: 'http://ancillaries.flyersconcierge.com/api/status/'
     },
     reservations: {
         title: 'reservations',
@@ -20,7 +26,7 @@ var apis = {
     },
     provider_analyzer: {
         title: 'provider analizer',
-        url: 'https://cors-anywhere.herokuapp.com/http://provider.flyersconcierge.com/api/status/'
+        url: 'http://provider.flyersconcierge.com/api/status/'
     },
     rabbit: {
         title: 'Rabbit',
@@ -32,7 +38,7 @@ var apis = {
     },
     ancillaries_staging: {
         title: 'ancillaries (STAGING)',
-        url: 'https://cors-anywhere.herokuapp.com/http://staging.ancillaries.flyersconcierge.com/api/status/'
+        url: 'http://staging.ancillaries.flyersconcierge.com/api/status/'
     },
     reservations_staging: {
         title: 'reservations (STAGING)',
@@ -40,7 +46,7 @@ var apis = {
     },
     provider_analyzer_staging: {
         title: 'provider analizer (STAGING)',
-        url: 'https://cors-anywhere.herokuapp.com/http://staging.provider.flyersconcierge.com/api/status/'
+        url: 'http://staging.provider.flyersconcierge.com/api/status/'
     },
     rabbit_staging: {
         title: 'Rabbit (STAGING)',

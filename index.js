@@ -6,18 +6,18 @@ var apis = {
         title: 'Github Public API (not our own but we couldnt live without it)',
         url: 'https://api.github.com/users' //replace this with your own API endpoints
     },
-    heroku : {
-        title: 'Heroku Status API',
-        url: 'https://status.heroku.com/api/ui/availabilities'
+    flyersconcierge : {
+        title: 'Flyers Concierge',
+        url: 'https://flyersconcierge.com'
     },
-    ovh : {
-        title: 'OVH API Cloud',
-        url: 'https://api.ovh.com/1.0/cloud.json'
+    ancillaries : {
+        title: 'ancillaries',
+        url: 'http://ancillaries.flyersconcierge.com/admin/login/?next=/admin/'
     },
 };
 
 //Replace this with your status page project name
-var githubProject = 'bisscomm/status';
+var githubProject = 'FlyerDefenders/status';
 
 //Github URLs
 var issuesApiUrl = 'https://api.github.com/repos/'+githubProject+'/issues?limit=100&sort=created&direction=desc&state=all'

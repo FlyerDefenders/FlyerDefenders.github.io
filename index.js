@@ -1,9 +1,3 @@
-jQuery.ajaxPrefilter(function(options) {
-    if (options.crossDomain && jQuery.support.cors) {
-        options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
-    }
-});
-
 //Configure the API endpoints that you want to check here...
 //Please make sure that those endpoints allow crossdomain calls, or be sure
 //to host this site in the same domain as your API (and set `document.domain` correspondingly)

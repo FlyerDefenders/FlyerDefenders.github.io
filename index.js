@@ -18,6 +18,10 @@ var apis = {
         title: 'reservations',
         url: 'https://reservations.flyersconcierge.com/api/status/'
     },
+    airport_data_provider: {
+        title: 'airport data provider',
+        url: 'http://airport.flyersconcierge.com/api/status/'
+    },
     provider_analyzer: {
         title: 'provider analizer',
         url: 'http://provider.flyersconcierge.com/api/status/'
@@ -37,6 +41,10 @@ var apis = {
     reservations_staging: {
         title: 'reservations (STAGING)',
         url: 'https://staging.reservations.flyersconcierge.com/api/status/'
+    },
+    airport_data_provider_staging: {
+        title: 'airport data provider (STAGING)',
+        url: 'http://staging.airport.flyersconcierge.com/api/status/'
     },
     provider_analyzer_staging: {
         title: 'provider analizer (STAGING)',

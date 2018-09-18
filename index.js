@@ -2,22 +2,50 @@
 //Please make sure that those endpoints allow crossdomain calls, or be sure
 //to host this site in the same domain as your API (and set `document.domain` correspondingly)
 var apis = {
-    github : {
-        title: 'Github Public API (not our own but we couldnt live without it)',
-        url: 'https://api.github.com/users' //replace this with your own API endpoints
-    },
-    flyersconcierge : {
+    // github : {
+    //     title: 'Github Public API (not our own but we couldnt live without it)',
+    //     url: 'https://api.github.com/users' //replace this with your own API endpoints
+    // },
+    flyersconcierge: {
         title: 'Flyers Concierge',
         url: 'https://flyersconcierge.com/api/status/'
     },
-    ancillaries : {
+    ancillaries: {
         title: 'ancillaries',
-        url: 'http://ancillaries.flyersconcierge.com/admin/login/?next=/admin/'
+        url: 'http://ancillaries.flyersconcierge.com/api/status/'
+    },
+    reservations: {
+        title: 'reservations',
+        url: 'https://reservations.flyersconcierge.com/api/status/'
+    },
+    provider_analyzer: {
+        title: 'provider analizer',
+        url: 'http://provider.flyersconcierge.com/api/status/'
+    },
+    rabbit: {
+        title: 'Rabbit',
+        url: 'https://flyersconcierge.com/api/status/?server=rabbit'
     },
     flyersconcierge_staging: {
-	title: 'Flyers Concierge (Staging)',
-	url: 'https://staging.flyersconcierge.com/api/status/'
-    }
+        title: 'Flyers Concierge (STAGING)',
+        url: 'https://staging.flyersconcierge.com/api/status/'
+    },
+    ancillaries_staging: {
+        title: 'ancillaries (STAGING)',
+        url: 'http://staging.ancillaries.flyersconcierge.com/api/status/'
+    },
+    reservations_staging: {
+        title: 'reservations (STAGING)',
+        url: 'https://staging.reservations.flyersconcierge.com/api/status/'
+    },
+    provider_analyzer_staging: {
+        title: 'provider analizer (STAGING)',
+        url: 'http://staging.provider.flyersconcierge.com/api/status/'
+    },
+    rabbit_staging: {
+        title: 'Rabbit (STAGING)',
+        url: 'https://staging.flyersconcierge.com/api/status/?server=rabbit'
+    },
 };
 
 //Replace this with your status page project name

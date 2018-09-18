@@ -8,12 +8,16 @@ var apis = {
     },
     flyersconcierge : {
         title: 'Flyers Concierge',
-        url: 'https://flyersconcierge.com'
+        url: 'https://flyersconcierge.com/api/status/'
     },
     ancillaries : {
         title: 'ancillaries',
         url: 'http://ancillaries.flyersconcierge.com/admin/login/?next=/admin/'
     },
+    flyersconcierge_staging: {
+	title: 'Flyers Concierge (Staging)',
+	url: 'https://staging.flyersconcierge.com/api/status/'
+    }
 };
 
 //Replace this with your status page project name

@@ -20,7 +20,7 @@ var apis = {
     },
     airport_data_provider: {
         title: 'airport data provider',
-        url: 'http://airport.flyersconcierge.com/api/status/'
+        url: 'http://airports.flyersconcierge.com/api/status/'
     },
     provider_analyzer: {
         title: 'provider analizer',
@@ -44,7 +44,7 @@ var apis = {
     },
     airport_data_provider_staging: {
         title: 'airport data provider (STAGING)',
-        url: 'http://staging.airport.flyersconcierge.com/api/status/'
+        url: 'http://staging.airports.flyersconcierge.com/api/status/'
     },
     provider_analyzer_staging: {
         title: 'provider analizer (STAGING)',

@@ -12,7 +12,7 @@ var apis = {
     },
     ancillaries: {
         title: 'ancillaries',
-        url: 'http://ancillaries.flyersconcierge.com/api/status/'
+        url: 'https://cors-anywhere.herokuapp.com/http://ancillaries.flyersconcierge.com/api/status/'
     },
     reservations: {
         title: 'reservations',
@@ -20,7 +20,7 @@ var apis = {
     },
     provider_analyzer: {
         title: 'provider analizer',
-        url: 'http://provider.flyersconcierge.com/api/status/'
+        url: 'https://cors-anywhere.herokuapp.com/http://provider.flyersconcierge.com/api/status/'
     },
     rabbit: {
         title: 'Rabbit',
@@ -32,7 +32,7 @@ var apis = {
     },
     ancillaries_staging: {
         title: 'ancillaries (STAGING)',
-        url: 'http://staging.ancillaries.flyersconcierge.com/api/status/'
+        url: 'https://cors-anywhere.herokuapp.com/http://staging.ancillaries.flyersconcierge.com/api/status/'
     },
     reservations_staging: {
         title: 'reservations (STAGING)',
@@ -40,7 +40,7 @@ var apis = {
     },
     provider_analyzer_staging: {
         title: 'provider analizer (STAGING)',
-        url: 'http://staging.provider.flyersconcierge.com/api/status/'
+        url: 'https://cors-anywhere.herokuapp.com/http://staging.provider.flyersconcierge.com/api/status/'
     },
     rabbit_staging: {
         title: 'Rabbit (STAGING)',
